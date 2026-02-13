@@ -1,5 +1,5 @@
 baseURL = 'https://aattentionn.github.io/my-hugo-site/'
-relativeURLs = true
+relativeURLs = false
 canonifyURLs = true
 languageCode = 'en-us'
 title = 'My New Hugo Site'
