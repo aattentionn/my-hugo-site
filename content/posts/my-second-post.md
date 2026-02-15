@@ -1,11 +1,25 @@
 +++
 date = '2026-02-11T19:43:37+03:00'
 draft = false
-title = 'My Second Post'
+title = 'Как создать Pull Request'
 +++
 
-## Introduction
+### Как создать Pull Request (PR)
+PR можно создать несколькими способами:
+- через [веб-версию](https://github.com/) GitHub;
+- через [десктоп-приложение](https://desktop.github.com/download/) GitHub;
+- с помощью интерфейса командной строки.
 
-This is **bold** text, and this is *emphasized* text.
-
-Visit the [Hugo](https://gohugo.io) website!
+### Как создать PR в интерфейсе командной строки:
+1. Скопируйте ссылку на странице репозитория на GitHub, используя кнопку **Code**.
+2. Создайте локальную копию с помощью команды `git clone repository-link`.
+3. Создайте новую ветку и перейдите в нее с помощью команды `git checkout -b branch-name`.
+4. Внесите необходимые изменения в файлы репозитория и добавьте их в индекс (stage) с помощью команды `git add file-name`.
+5. Создайте коммит с помощью команды `git commit -m "commit message"`.
+6. Проверьте, внесены ли изменения в коммит, с помощью команды `git status`. Если все файлы добавлены, командная строка выведет сообщение: `On branch branch-name nothing to commit, working tree clean`.
+7. Отправьте изменения на удаленный репозиторий командой `git push origin branch-name`.
+8. Перейдите в репозиторий на GitHub и нажмите на кнопку **Compare & pull request**.
+9. Выберите base-ветку на странице PR, в которую нужно объединить изменения из compare-ветки.
+10. Укажите название PR в поле **Title** и добавьте описание в поле **Description**.
+11. Нажмите кнопку **Create pull request**, чтобы создать PR.
+12. Проведите ревью изменений и объедините ветки с помощью кнопки **Merge pull request**. 
