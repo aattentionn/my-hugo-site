@@ -1,26 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on My New Hugo Site</title>
-    <link>https://aattentionn.github.io/my-hugo-site/posts/</link>
-    <description>Recent content in Posts on My New Hugo Site</description>
+    <title>Posts on Techwriting 101</title>
+    <link>http://localhost:1313/my-hugo-site/posts/</link>
+    <description>Recent content in Posts on Techwriting 101</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 11 Feb 2026 19:43:37 +0300</lastBuildDate>
-    <atom:link href="https://aattentionn.github.io/my-hugo-site/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/my-hugo-site/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>My Second Post</title>
-      <link>https://aattentionn.github.io/my-hugo-site/posts/my-second-post/</link>
+      <title>Как создать Pull Request</title>
+      <link>http://localhost:1313/my-hugo-site/posts/my-second-post/</link>
       <pubDate>Wed, 11 Feb 2026 19:43:37 +0300</pubDate>
-      <guid>https://aattentionn.github.io/my-hugo-site/posts/my-second-post/</guid>
-      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;This is &lt;strong&gt;bold&lt;/strong&gt; text, and this is &lt;em&gt;emphasized&lt;/em&gt; text.&lt;/p&gt;&#xA;&lt;p&gt;Visit the &lt;a href=&#34;https://gohugo.io&#34;&gt;Hugo&lt;/a&gt; website!&lt;/p&gt;</description>
+      <guid>http://localhost:1313/my-hugo-site/posts/my-second-post/</guid>
+      <description>&lt;p&gt;PR можно создать несколькими способами:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;через &lt;a href=&#34;https://github.com/&#34;&gt;веб-версию&lt;/a&gt; GitHub;&lt;/li&gt;&#xA;&lt;li&gt;через &lt;a href=&#34;https://desktop.github.com/download/&#34;&gt;десктоп-приложение&lt;/a&gt; GitHub;&lt;/li&gt;&#xA;&lt;li&gt;с помощью интерфейса командной строки.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Рассмотрим пошаговое создание PR в интерфейсе командной строки:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Скопируйте ссылку на странице репозитория на GitHub, используя кнопку &lt;strong&gt;Code&lt;/strong&gt;.&lt;/li&gt;&#xA;&lt;li&gt;Создайте локальную копию с помощью команды &lt;code&gt;git clone repository-link&lt;/code&gt;.&lt;/li&gt;&#xA;&lt;li&gt;Создайте новую ветку и перейдите в нее с помощью команды &lt;code&gt;git checkout -b branch-name&lt;/code&gt;.&lt;/li&gt;&#xA;&lt;li&gt;Внесите необходимые изменения в файлы репозитория и добавьте их в индекс (stage) с помощью команды &lt;code&gt;git add file-name&lt;/code&gt;.&lt;/li&gt;&#xA;&lt;li&gt;Создайте коммит с помощью команды &lt;code&gt;git commit -m &amp;quot;commit message&amp;quot;&lt;/code&gt;.&lt;/li&gt;&#xA;&lt;li&gt;Проверьте, внесены ли изменения в коммит, с помощью команды &lt;code&gt;git status&lt;/code&gt;. Если все файлы добавлены, командная строка выведет сообщение: &lt;code&gt;On branch branch-name nothing to commit, working tree clean&lt;/code&gt;.&lt;/li&gt;&#xA;&lt;li&gt;Отправьте изменения на удаленный репозиторий командой &lt;code&gt;git push origin branch-name&lt;/code&gt;.&lt;/li&gt;&#xA;&lt;li&gt;Перейдите в репозиторий на GitHub и нажмите на кнопку &lt;strong&gt;Compare &amp;amp; pull request&lt;/strong&gt;.&lt;/li&gt;&#xA;&lt;li&gt;Выберите base-ветку на странице PR, в которую нужно объединить изменения из compare-ветки.&lt;/li&gt;&#xA;&lt;li&gt;Укажите название PR в поле &lt;strong&gt;Title&lt;/strong&gt; и добавьте описание в поле &lt;strong&gt;Description&lt;/strong&gt;.&lt;/li&gt;&#xA;&lt;li&gt;Нажмите кнопку &lt;strong&gt;Create pull request&lt;/strong&gt;, чтобы создать PR.&lt;/li&gt;&#xA;&lt;li&gt;Проведите ревью изменений и объедините ветки с помощью кнопки &lt;strong&gt;Merge pull request&lt;/strong&gt;.&lt;/li&gt;&#xA;&lt;/ol&gt;</description>
     </item>
     <item>
-      <title>My First Post</title>
-      <link>https://aattentionn.github.io/my-hugo-site/posts/my-first-post/</link>
+      <title>Команды Linux для новичков</title>
+      <link>http://localhost:1313/my-hugo-site/posts/my-first-post/</link>
       <pubDate>Sun, 08 Feb 2026 14:03:45 +0300</pubDate>
-      <guid>https://aattentionn.github.io/my-hugo-site/posts/my-first-post/</guid>
-      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;This is &lt;strong&gt;bold&lt;/strong&gt; text, and this is &lt;em&gt;emphasized&lt;/em&gt; text.&lt;/p&gt;&#xA;&lt;p&gt;Visit the &lt;a href=&#34;https://gohugo.io&#34;&gt;Hugo&lt;/a&gt; website!&lt;/p&gt;</description>
+      <guid>http://localhost:1313/my-hugo-site/posts/my-first-post/</guid>
+      <description>&lt;p&gt;Это небольшой лист с базовыми командами Linux для новичков. Они помогут чувствовать себя увереннее при работе с интерфейсом командной строки.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;pwd - отобразить путь до текущего каталога.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;ls - отобразить список файлов и подкаталогов, находящихся в конкретном каталоге.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;cd - перейти в другой каталог.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;mkdir - создать новый каталог.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;touch - создать новый пустой файл.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;mv - переместить файлы.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;cp - скопировать файлы и каталоги.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;rm - удалить файлы.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;rmdir - удалить пустые каталоги.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

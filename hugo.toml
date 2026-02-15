@@ -1,6 +1,4 @@
 baseURL = 'https://aattentionn.github.io/my-hugo-site/'
-relativeURLs = false
-canonifyURLs = true
 languageCode = 'en-us'
 title = 'Techwriting 101'
 theme = 'ananke'

@@ -1,22 +1,22 @@
 <!DOCTYPE html>
 <html lang="en-us">
-  <head>
+  <head><script src="/my-hugo-site/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=my-hugo-site/livereload" data-no-instant defer></script>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     
-    <title>My New Hugo Site</title>
+    <title>Techwriting 101</title>
     <meta name="viewport" content="width=device-width,minimum-scale=1">
     <meta name="description" content="">
     <meta name="generator" content="Hugo 0.155.2">
     
     
     
-      <meta name="robots" content="index, follow">
+      <meta name="robots" content="noindex, nofollow">
     
     
 
     
-<link rel="stylesheet" href="https://aattentionn.github.io/my-hugo-site/ananke/css/main.min.efe4d852f731d5d1fbb87718387202a97aafd768cdcdaed0662bbe6982e91824.css" >
+<link rel="stylesheet" href="/my-hugo-site/ananke/css/main.min.css" >
 
 
 
@@ -31,19 +31,19 @@
 
     
     
-      <link href="https://aattentionn.github.io/my-hugo-site/posts/index.xml" rel="alternate" type="application/rss+xml" title="My New Hugo Site" />
-      <link href="https://aattentionn.github.io/my-hugo-site/posts/index.xml" rel="feed" type="application/rss+xml" title="My New Hugo Site" />
+      <link href="/my-hugo-site/posts/index.xml" rel="alternate" type="application/rss+xml" title="Techwriting 101" />
+      <link href="/my-hugo-site/posts/index.xml" rel="feed" type="application/rss+xml" title="Techwriting 101" />
       
     
 
     
-      <link rel="canonical" href="https://aattentionn.github.io/my-hugo-site/posts/">
+      <link rel="canonical" href="http://localhost:1313/my-hugo-site/posts/">
     
 
     
     
-    <meta property="og:url" content="https://aattentionn.github.io/my-hugo-site/posts/">
-  <meta property="og:site_name" content="My New Hugo Site">
+    <meta property="og:url" content="http://localhost:1313/my-hugo-site/posts/">
+  <meta property="og:site_name" content="Techwriting 101">
   <meta property="og:title" content="Posts">
   <meta property="og:locale" content="en_us">
   <meta property="og:type" content="website">
@@ -54,20 +54,17 @@
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Posts">
 
-      
-      
-    
 	
-  </head><body class="ma0 avenir bg-near-white production is-section is-section">
+  </head><body class="ma0 avenir bg-near-white development is-section is-section">
     
 
   <header>
     <div class="pb3-m pb6-l bg-black">
       <nav class="pv3 ph3 ph4-ns" role="navigation">
   <div class="flex-l center items-center justify-between">
-    <a href="https://aattentionn.github.io/my-hugo-site/" class="f3 fw2 hover-white white-90 dib no-underline">
+    <a href="/my-hugo-site/" class="f3 fw2 hover-white white-90 dib no-underline">
       
-        My New Hugo Site
+        Techwriting 101
       
     </a>
     <div class="flex-l items-center">
@@ -101,16 +98,34 @@
   <div class="mb3 pa4 gray overflow-hidden bg-white">
     <span class="f6 db">Posts</span>
     <h1 class="f3 near-black">
-      <a href="https://aattentionn.github.io/my-hugo-site/posts/my-second-post/" class="link black dim">
-        My Second Post
+      <a href="/my-hugo-site/posts/my-second-post/" class="link black dim">
+        Как создать Pull Request
       </a>
     </h1>
     <div class="nested-links f5 lh-copy nested-copy-line-height">
-      <h2 id="introduction">Introduction</h2>
-<p>This is <strong>bold</strong> text, and this is <em>emphasized</em> text.</p>
-<p>Visit the <a href="https://gohugo.io">Hugo</a> website!</p>
+      <p>PR можно создать несколькими способами:</p>
+<ul>
+<li>через <a href="https://github.com/">веб-версию</a> GitHub;</li>
+<li>через <a href="https://desktop.github.com/download/">десктоп-приложение</a> GitHub;</li>
+<li>с помощью интерфейса командной строки.</li>
+</ul>
+<p>Рассмотрим пошаговое создание PR в интерфейсе командной строки:</p>
+<ol>
+<li>Скопируйте ссылку на странице репозитория на GitHub, используя кнопку <strong>Code</strong>.</li>
+<li>Создайте локальную копию с помощью команды <code>git clone repository-link</code>.</li>
+<li>Создайте новую ветку и перейдите в нее с помощью команды <code>git checkout -b branch-name</code>.</li>
+<li>Внесите необходимые изменения в файлы репозитория и добавьте их в индекс (stage) с помощью команды <code>git add file-name</code>.</li>
+<li>Создайте коммит с помощью команды <code>git commit -m &quot;commit message&quot;</code>.</li>
+<li>Проверьте, внесены ли изменения в коммит, с помощью команды <code>git status</code>. Если все файлы добавлены, командная строка выведет сообщение: <code>On branch branch-name nothing to commit, working tree clean</code>.</li>
+<li>Отправьте изменения на удаленный репозиторий командой <code>git push origin branch-name</code>.</li>
+<li>Перейдите в репозиторий на GitHub и нажмите на кнопку <strong>Compare &amp; pull request</strong>.</li>
+<li>Выберите base-ветку на странице PR, в которую нужно объединить изменения из compare-ветки.</li>
+<li>Укажите название PR в поле <strong>Title</strong> и добавьте описание в поле <strong>Description</strong>.</li>
+<li>Нажмите кнопку <strong>Create pull request</strong>, чтобы создать PR.</li>
+<li>Проведите ревью изменений и объедините ветки с помощью кнопки <strong>Merge pull request</strong>.</li>
+</ol>
     </div>
-    <a href="https://aattentionn.github.io/my-hugo-site/posts/my-second-post/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
+    <a href="/my-hugo-site/posts/my-second-post/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
   </div>
 </div>
 
@@ -121,16 +136,41 @@
   <div class="mb3 pa4 gray overflow-hidden bg-white">
     <span class="f6 db">Posts</span>
     <h1 class="f3 near-black">
-      <a href="https://aattentionn.github.io/my-hugo-site/posts/my-first-post/" class="link black dim">
-        My First Post
+      <a href="/my-hugo-site/posts/my-first-post/" class="link black dim">
+        Команды Linux для новичков
       </a>
     </h1>
     <div class="nested-links f5 lh-copy nested-copy-line-height">
-      <h2 id="introduction">Introduction</h2>
-<p>This is <strong>bold</strong> text, and this is <em>emphasized</em> text.</p>
-<p>Visit the <a href="https://gohugo.io">Hugo</a> website!</p>
+      <p>Это небольшой лист с базовыми командами Linux для новичков. Они помогут чувствовать себя увереннее при работе с интерфейсом командной строки.</p>
+<ul>
+<li>
+<p>pwd - отобразить путь до текущего каталога.</p>
+</li>
+<li>
+<p>ls - отобразить список файлов и подкаталогов, находящихся в конкретном каталоге.</p>
+</li>
+<li>
+<p>cd - перейти в другой каталог.</p>
+</li>
+<li>
+<p>mkdir - создать новый каталог.</p>
+</li>
+<li>
+<p>touch - создать новый пустой файл.</p>
+</li>
+<li>
+<p>mv - переместить файлы.</p>
+</li>
+<li>
+<p>cp - скопировать файлы и каталоги.</p>
+</li>
+<li>
+<p>rm - удалить файлы.</p>
+</li>
+<li>
+<p>rmdir - удалить пустые каталоги.</p>
     </div>
-    <a href="https://aattentionn.github.io/my-hugo-site/posts/my-first-post/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
+    <a href="/my-hugo-site/posts/my-first-post/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
   </div>
 </div>
 
@@ -142,8 +182,8 @@
     </main>
     <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
   <div class="flex justify-between">
-  <a class="f4 fw4 hover-white white-70 dn dib-ns pv2 ph3 no-underline" href="https://aattentionn.github.io/my-hugo-site/" >
-    &copy;  My New Hugo Site 2026 
+  <a class="f4 fw4 hover-white white-70 dn dib-ns pv2 ph3 no-underline" href="http://localhost:1313/my-hugo-site/" >
+    &copy;  Techwriting 101 2026 
   </a>
     <div><div class="ananke-socials"></div>
 </div>
